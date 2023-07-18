@@ -1,2 +1,8 @@
 # booking-website
-Booking website help tourests to book Hotels and cars and anyone can offer his car to rint
+open exampp
+run apache
+Know your port number
+write in yout browser
+localhost:"your port number"
+ex: localhost:80 
+then run code
