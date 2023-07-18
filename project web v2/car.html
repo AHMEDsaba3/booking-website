@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="project.css">
+	<link rel="stylesheet" href="car.css">
+	<link rel="icon" type="image/x-icon" href="photo\logo.png">
+    <meta charset="UTF-8">
+	<style>
+		footer{
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color:initial;
+			color:white;
+			text-align: center;
+		  }
+		</style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourRest</title>
+</head>
+<body>
+	
+	<div class="navbar" role="navigation">
+		<ul class="navvv" >
+			<li style="float: left;"><div id="logo" style="background-color: initial;"><a class="navv" href="project.php" style="background-color:inherit;"><img  src="photo\logo.png" alt="logo" height="40" width=auto style="margin: 0px;"></a></div></li>
+			<li style="padding: 10px;"><a class="navv" href="contact.html" >Contact</a></li>
+			<li style="padding: 10px;"><a class="navv" href="about.html">About</a></li>
+			<li style="padding: 10px;"><a class="navv" href="story.html">Story</a></li>
+			<li style="padding: 10px;"><a class="navv" class="dropbtn" href="hotels.php">Accommodations</a></li>
+			<li class="dropdown" style="padding: 10px;">
+			<a class="navv" class="dropbtn" href="#" style="background-color: #5200e0; border-radius: 10px;">Travel</a>
+			<div class="dropdown-content">
+			  <a class="navv" href="travel.html">Trips</a>
+			  <a class="navv" href="car.html" style="background-color: #5200e0; border-radius: 10px;">Car Rentals</a>
+			</div>
+			</li>
+		<li style="padding: 10px;"><a class="navv" href="project.php">Home</a></li>
+		</ul>
+	</div>
+
+	  <!-- ------------------------------- -->
+	  <div class="hotell">
+  
+    
+		<div class="row">
+		  <div class="column hotels">
+			<div class="content">
+			  <img class="contentImg" id="myImg" src="https://images.olx.com.eg/thumbnails/42651367-400x300.webp" alt="JAC" style="width:100%;">
+			  <h4>JAC</h4>
+			  <p>300 EGP / Day</p>
+			</div>
+		  </div>
+		  <div id="myModal" class="modal">
+	  
+			<!-- The Close Button -->
+			<span class="close" style="background-color: initial;">&times;</span>
+		  
+			<!-- Modal Content (The Image) -->
+			<img class="modal-content" id="img01">
+		  
+			<!-- Modal Caption (Image Text) -->
+			<div id="caption"></div>
+		  </div>
+		  <div class="column hotels">
+			<div class="content">
+			  <img class="contentImg" src="https://images.olx.com.eg/thumbnails/14946376-400x300.webp" alt="Mercedes" style="width:100%">
+			  <h4>Mercedes</h4>
+			  <p>600 EGP / Day</p>
+			</div>
+		  </div>
+		  <div class="column hotels">
+			<div class="content">
+			  <img class="contentImg" src="https://images.olx.com.eg/thumbnails/46670432-400x300.webp" alt="Fiat" style="width:100%">
+			  <h4>Fiat</h4>
+			  <p>400 EGP / Day</p>
+			</div>
+		  </div>
+		
+		  
+		  </div>
+		</div>
+	  </div>
+	  <footer>
+		<p>Copyright @ TourRest 2023</p>
+		</footer>
+		  <script src="travel.js"></script>
+	
+	
+		  <script src="car.js"></script>
+</body>
+</html>

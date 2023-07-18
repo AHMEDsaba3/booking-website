@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="photo\logo.png">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="travel.css">
+    <style>
+      footer{
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color:initial;
+          color:white;
+          text-align: center;
+        }
+      </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourRest</title>
+</head>
+<body>  
+    
+  <div class="navbar" role="navigation">
+    <ul class="navvv" >
+      <li style="float: left;"><div id="logo" style="background-color: initial;"><a class="navv" href="project.php" style="background-color:inherit;"><img  src="photo\logo.png" alt="logo" height="40" width=auto style="margin: 0px;"></a></div></li>
+      <li style="padding: 10px;"><a class="navv" href="contact.html" >Contact</a></li>
+      <li style="padding: 10px;"><a class="navv" href="about.html">About</a></li>
+      <li style="padding: 10px;"><a class="navv" href="story.html">Story</a></li>
+      <li style="padding: 10px;"><a class="navv" class="dropbtn" href="hotels.php">Accommodations</a></li>
+        <li class="dropdown" style="padding: 10px;">
+      <a class="navv" class="dropbtn" href="#" style="background-color: #5200e0; border-radius: 10px;">Travel</a>
+      <div class="dropdown-content">
+        <a class="navv" href="travel.html" style="background-color: #5200e0; border-radius: 10px;">Trips</a>
+        <a class="navv" href="car.html">Car Rentals</a>
+      </div>
+          </li>
+    <li style="padding: 10px;"><a class="navv" href="project.php">Home</a></li>
+    </ul>
+  </div>
+
+  <!-- ------------------------------- -->
+  <div class="hotell">
+  
+    
+    <div class="row">
+      <div class="column hotels">
+        <div class="content">
+          <img class="contentImg" id="myImg" src="http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcR9r_SnuHURd4rYgv92XDbU-Pq-bvkG4DJCm1YmXU3S2ModZJAovN1o3QADdjX6G60k" alt="Travel Plan here: <br><br>-<br>-<br>-<br>-" style="width:100%;">
+          <h4>Dahab</h4>
+          <p>6,000 EGP / 5 Days</p>
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+  
+        <!-- The Close Button -->
+        <span class="close" style="background-color: initial;">&times;</span>
+      
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+      
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+      <div class="column hotels">
+        <div class="content">
+          <img class="contentImg" src="https://media-cdn.tripadvisor.com/media/photo-s/25/03/7d/40/rixos-sharm-el-sheikh.jpg" alt="Travel Plan here: <br><br>-<br>-<br>-<br>-" style="width:100%">
+          <h4>Sharm El-Sheikh</h4>
+          <p>9,000 EGP / 6 Days</p>
+        </div>
+      </div>
+      <div class="column hotels">
+        <div class="content">
+          <img class="contentImg" src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/96903383.jpg?k=8e047aa6a841d996c4c00df148f708d1d0cfec670a447f90d41a8f57b744a880&o=&hp=1" alt="Travel Plan here: <br><br>-<br>-<br>-<br>-" style="width:100%">
+          <h4>Aswan, Gharb Seheil</h4>
+          <p>4,000 EGP / 5 Days</p>
+        </div>
+      </div>
+    
+      
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Copyright @ TourRest 2023</p>
+    </footer>
+      <script src="travel.js"></script>
+
+</body>
+</html>

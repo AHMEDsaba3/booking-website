@@ -1,0 +1,46 @@
+<?php
+
+
+// //to prevent mysql injection
+// $username = stripcslashes($username);
+// $password = stripcslashes($password);
+// $username = mysql_real_escape_string($username);
+// $password = mysql_real_escape_string($password);
+
+// //connect to the server and select database
+// mysql_connect("localhost","root","");
+// mysql_select_db("login");
+
+// //Query the database for the user
+// $result = mysql_query("select * from users where username = '$username' and password = '$password'") or die("Failed to query database".mysql_error());
+// $row = mysql_fetch_array($result);
+// if ($row['username'] == $username && row['password'] == $password) {
+//     echo "Login Successful";
+// } else {
+//     echo "Failed login";
+// }
+
+$con = mysqli_connect("localhost","root","","login");
+
+if(isset($_POST['loginBtn']))
+{
+    $username = $_POST['uname'];
+    $password = $_POST['psw'];
+
+    include "signup.classes.php";
+    include "signup-contr.classes.php";
+    
+
+    // $query = mysql_query("SELECT userID from usersystem where username = '$username' and password = '$password' limit 1");
+    // $numQuery = new mysql_num_rows($query);
+    // if(mysql_num_rows($query))
+    // {
+        
+    // }
+    // else{
+    //     $error = "Inavalid login";
+    // }
+    
+}
+
+?>
